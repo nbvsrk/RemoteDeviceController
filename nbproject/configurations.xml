@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>ClientSocket.cpp</itemPath>
+      <itemPath>ClientSocket.h</itemPath>
+      <itemPath>ServerSocket.cpp</itemPath>
+      <itemPath>ServerSocket.h</itemPath>
+      <itemPath>Socket.cpp</itemPath>
+      <itemPath>Socket.h</itemPath>
+      <itemPath>SocketException.h</itemPath>
+      <itemPath>myconverters.cpp</itemPath>
+      <itemPath>myconverters.h</itemPath>
+      <itemPath>mycurl.cpp</itemPath>
+      <itemPath>mycurl.h</itemPath>
+      <itemPath>mystdlib.cpp</itemPath>
+      <itemPath>mystdlib.h</itemPath>
+      <itemPath>myxml.cpp</itemPath>
+      <itemPath>myxml.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>MEKCamStreamNRecord.cpp</itemPath>
+      <itemPath>UpdateSystemInstallStatus.xml</itemPath>
+      <itemPath>VendorLoginForClientComponent.xml</itemPath>
+      <itemPath>error.log</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>masterek-py.html</itemPath>
+      <itemPath>out.xml</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <commandLine>-lcurl -lxml2 -I/usr/include/libxml2 -lssl -lcrypto</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="ClientSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MEKCamStreamNRecord.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ServerSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ServerSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Socket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UpdateSystemInstallStatus.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VendorLoginForClientComponent.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="error.log" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="masterek-py.html" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="myconverters.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myconverters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mycurl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mycurl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mystdlib.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mystdlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="myxml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myxml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="out.xml" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <commandLine>-lcurl -lxml2 -I/usr/include/libxml2</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="ClientSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MEKCamStreamNRecord.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ServerSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ServerSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Socket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UpdateSystemInstallStatus.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VendorLoginForClientComponent.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="error.log" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="masterek-py.html" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="myconverters.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myconverters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mycurl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mycurl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mystdlib.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mystdlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="myxml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myxml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="out.xml" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
